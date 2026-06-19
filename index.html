@@ -1,42 +1,133 @@
 <!DOCTYPE html>
-
 <html lang="ja">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>INN-OS</title>
+<style>
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #161719;
+  color: #f4f1ea;
+  line-height: 1.7;
+}
+main {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 48px 20px;
+}
+.hero {
+  text-align: center;
+  padding: 40px 0;
+}
+.logo {
+  width: 160px;
+  max-width: 60%;
+  border-radius: 24px;
+}
+h1 {
+  font-size: 48px;
+  margin: 20px 0 8px;
+}
+.subtitle {
+  font-size: 20px;
+  color: #d8c39a;
+}
+.buttons {
+  margin-top: 28px;
+}
+.button {
+  display: inline-block;
+  margin: 8px;
+  padding: 12px 22px;
+  border-radius: 999px;
+  text-decoration: none;
+  font-weight: bold;
+  background: #d8a94a;
+  color: #1b1308;
+}
+.button.secondary {
+  background: #2c2f36;
+  color: #f4f1ea;
+}
+section {
+  margin-top: 48px;
+}
+.card {
+  background: #202228;
+  border: 1px solid #343742;
+  border-radius: 18px;
+  padding: 20px;
+  margin: 14px 0;
+}
+footer {
+  margin-top: 60px;
+  text-align: center;
+  color: #aaa;
+}
+footer a {
+  color: #d8c39a;
+  margin: 0 8px;
+}
+</style>
 </head>
 <body>
+<main>
 
-<h1>INN-OS</h1>
+<div class="hero">
+  <img src="logo.png" alt="INN-OS Logo" class="logo">
+  <h1>INN-OS</h1>
+  <div class="subtitle">Discord既存機能の強化BOT</div>
 
-<p>
-Discord既存機能の強化BOT
-</p>
+  <p>
+    募集、プロフィール、通知、VC管理など、Discord既存機能を整理・拡張し、<br>
+    小規模から大規模まで使いやすいコミュニティ作りを支援します。
+  </p>
 
-<h2>概要</h2>
+  <div class="buttons">
+    <a class="button" href="https://discord.com/oauth2/authorize?client_id=1516998939407024218">Add to Discord</a>
+    <a class="button secondary" href="https://discord.gg/zu4pss7vr">Support Server</a>
+  </div>
+</div>
 
-<p>
-INN-OSはDiscordコミュニティ向けに開発した、Discord既存機能の強化BOTです。
-募集、プロフィール/自己紹介の検索性向上、通知機能、VC管理などの基盤機能を提供し、サーバーをより使いやすく整理します。
-</p>
+<section>
+  <h2>主な機能</h2>
 
-<h2>主な機能</h2>
+  <div class="card">
+    <h3>📖 Registry</h3>
+    <p>プロフィールや自己紹介を登録し、メンバーが何をしている人なのか分かりやすくします。</p>
+  </div>
 
-<ul>
-<li>募集管理</li>
-<li>プロフィール・自己紹介検索</li>
-<li>通知管理</li>
-<li>VC管理</li>
-<li>コミュニティ基盤機能</li>
-</ul>
+  <div class="card">
+    <h3>🔔 Notify</h3>
+    <p>ゲームや話題ごとの通知設定を整理し、必要な人へ募集を届けやすくします。</p>
+  </div>
 
-<h2>Links</h2>
+  <div class="card">
+    <h3>📢 Recruitment</h3>
+    <p>ゲーム、雑談、作業などの募集を作成し、コミュニティ内で人を集めやすくします。</p>
+  </div>
 
-<ul>
-<li><a href="privacy.html">Privacy Policy</a></li>
-<li><a href="terms.html">Terms of Service</a></li>
-</ul>
+  <div class="card">
+    <h3>🎤 Voice Channel Management</h3>
+    <p>VCの乱立を防ぎ、必要な時だけ使いやすい通話環境を作ります。</p>
+  </div>
+</section>
 
+<section>
+  <h2>INN-OSについて</h2>
+  <p>
+    INN-OSはDiscordを置き換えるBOTではありません。
+    Discordに元からある機能をより扱いやすくするための、コミュニティ向け基盤BOTです。
+  </p>
+</section>
+
+<footer>
+  <a href="privacy.html">Privacy Policy</a>
+  <a href="terms.html">Terms of Service</a>
+</footer>
+
+</main>
 </body>
 </html>
